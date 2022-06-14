@@ -21,3 +21,8 @@ c = aTemp;
 console.log(`Valor a = ${a}`);
 console.log(`Valor b = ${b}`);
 console.log(`Valor c = ${c}`);
+
+//outra maneira mais rapida de resolver:
+[a, b, c] = [b, c, a];
+
+console.log(`A ${a}, B ${b}, C ${c}`);

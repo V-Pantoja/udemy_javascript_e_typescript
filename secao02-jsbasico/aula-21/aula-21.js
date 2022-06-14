@@ -11,6 +11,4 @@ let num2 = prompt('Agora o segundo:');
 num1 = Number(num1);
 num2 = Number(num2);
 
-let somaNum = num1 + num2;
-
-document.write(`O resultado da soma dos dois números foi: <strong>${somaNum}</strong>`);
+document.write(`O resultado da soma dos dois números foi: <strong>${num1 + num2}</strong> <br/>`);
